@@ -11,29 +11,35 @@
       Welcome To DOM
       <span class="font-bold text-red-700">Banking System!</span>
     </h1>
-    <section class="bg-yellow-100 p-4 mt-14 w-1/2 mx-auto">
+    <section class="bg-yellow-100 p-4 mt-14 w-1/2 mx-auto shadow-md">
       <div class="text-center">
-        <p class="font-medium">Please Login</p>
+        <p class="font-medium text-2xl">Please Login</p>
         <br />
         <input
-          class="border border-rounded rounded-lg border-2 border-gray-500"
+          id="email"
+          class="border border-rounded rounded-lg border-2 border-gray-500 inline-block w-60 py-1 ps-3"
           type="text"
+          placeholder="Username"
         />
         <br />
         <br />
         <input
-          class="border border-rounded rounded-lg border-2 border-gray-500"
-          type="text"
+          id="pass"
+          class="border border-rounded rounded-lg border-2 border-gray-500 inline-block w-60 ps-3 py-1"
+          type="password"
+          placeholder="Password"
         />
         <br />
         <br />
         <button
-          class="border border-rounded rounded-md border-2 border-black py-0.5 px-4 bg-purple-400"
+          id="btn"
+          class="border border-rounded rounded-md border-2 border-black py-0.5 px-6 bg-purple-500 inline-block hover:bg-purple-400 text-white"
         >
           login
         </button>
       </div>
     </section>
+    <button id="go">press</button>
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- java -->
