@@ -16,8 +16,5 @@ document.getElementById("btn").addEventListener("click", function () {
   }
 });
 document.getElementById("go").addEventListener("click", function () {
-  window.location.href = "index.html";
-});
-document.getElementById("btn2").addEventListener("click", function () {
-  console.log("pressed");
+  window.location.href = "login2.html";
 });
